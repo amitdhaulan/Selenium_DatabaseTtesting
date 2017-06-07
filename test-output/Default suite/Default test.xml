@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Chetuiwk1317" name="database.testing.DatabaseTesting" tests="1" failures="0" timestamp="24 May 2017 16:16:15 GMT" time="0.269" errors="0">
+  <testcase name="getResults" time="0.221" classname="database.testing.DatabaseTesting"/>
+</testsuite>

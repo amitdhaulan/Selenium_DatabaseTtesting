@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[In Before test]]>
+    </line>
+    <line>
+      <![CDATA[Getting new instance for connection class]]>
+    </line>
+    <line>
+      <![CDATA[Getting connection with connection class]]>
+    </line>
+    <line>
+      <![CDATA[Getting statement for the query]]>
+    </line>
+    <line>
+      <![CDATA[Returning statement to the function]]>
+    </line>
+    <line>
+      <![CDATA[Results for the query are: 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[1	Amit	29	Meerut]]>
+    </line>
+    <line>
+      <![CDATA[2	Ajay	27	Delhi]]>
+    </line>
+    <line>
+      <![CDATA[3	Rahul	31	Noida]]>
+    </line>
+    <line>
+      <![CDATA[4	Aman	29	Gurgaon]]>
+    </line>
+    <line>
+      <![CDATA[In After test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="269" started-at="2017-05-24T21:46:15Z" finished-at="2017-05-24T21:46:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="269" started-at="2017-05-24T21:46:15Z" finished-at="2017-05-24T21:46:15Z">
+      <class name="database.testing.DatabaseTesting">
+        <test-method status="PASS" signature="getConnection()" name="getConnection" is-config="true" duration-ms="32" started-at="2017-05-24T21:46:15Z" finished-at="2017-05-24T21:46:15Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults()" name="getResults" duration-ms="221" started-at="2017-05-24T21:46:15Z" finished-at="2017-05-24T21:46:15Z">
+        </test-method>
+        <test-method status="PASS" signature="closeConnection()" name="closeConnection" is-config="true" duration-ms="0" started-at="2017-05-24T21:46:15Z" finished-at="2017-05-24T21:46:15Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
